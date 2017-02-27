@@ -1,0 +1,17 @@
+{
+  "name": "discord-bot-rpg",
+  "version": "1.0.0",
+  "description": "Create a discord BOT RPG",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.0.0",
+    "fs-promise": "^2.0.0",
+    "gollumjs": "^0.3.0",
+    "jimp": "^0.2.27"
+  }
+}
