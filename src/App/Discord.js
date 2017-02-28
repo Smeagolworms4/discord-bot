@@ -6,6 +6,7 @@ GollumJS.NS(App, function() {
 
 		app: null,
 		engine: null,
+		
 		mj: null,
 		chess: null,
 
@@ -14,8 +15,8 @@ GollumJS.NS(App, function() {
 		},
 
 		start: function() {
-			this.mj    = new App.MJ(this);
-			this.chess = new App.Chess(this);
+			this.mj    = new App.Discord.MJ(this);
+			this.chess = new App.Discord.Chess(this);
 			this.connect();
 		},
 

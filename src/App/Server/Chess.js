@@ -57,7 +57,6 @@ GollumJS.NS(App.Server, function() {
 			var result = this.images['damier'].clone();
 			
 			var list = this.parsePosition(request.url);
-			console.log(list);
 
 			for(var i = 0; i < list.length; i++) {
 				var	piece = list[i];

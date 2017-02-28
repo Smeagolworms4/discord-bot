@@ -37,6 +37,7 @@ GollumJS.NS(App, function() {
 
 		request(request, response) {
 			try {
+				console.log('GET: '+request.url);
 				if (request.url.indexOf(App.Server.Chess.BASE_URL) === 0) {
 					this.chess.request(request, response);
 					return

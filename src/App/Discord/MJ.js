@@ -1,13 +1,9 @@
-GollumJS.NS(App, function() {
+GollumJS.NS(App.Discord, function() {
 
 	this.MJ = new GollumJS.Class({
 
-		discord: null,
-
-		initialize: function(discord) {
-			this.discord = discord;
-		},
-
+		Extends: App.Discord.AbstractCommand,
+		
 		execute: function(commands) {
 			if (commands[0]) {
 				var d = commands[0].toLowerCase().split('d');
