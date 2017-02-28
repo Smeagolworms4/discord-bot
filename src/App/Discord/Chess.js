@@ -39,7 +39,7 @@ GollumJS.NS(App.Discord, function() {
 						response = 'Arret de la partie en cours';
 					}
 				}
-				if (commands[0].length == 4 && commands[0].match(new RegExp('[a-e][1-8][a-e][1-8]', 'i'))) {
+				if (commands[0].length == 4 && commands[0].match(new RegExp('[a-h][1-8][a-h][1-8]', 'i'))) {
 					var values =  commands[0].toLowerCase();
 					
 					var y1 = values[0].charCodeAt() - 'a'.charCodeAt();
