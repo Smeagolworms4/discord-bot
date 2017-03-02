@@ -40,7 +40,7 @@ GollumJS.NS(App.Discord, function() {
 				if (commands[0] == this.self.CMD_HELP) {
 					response = 
 						'Aide partie d\'échec :'+"\n\n"+
-						' **'+baseCommand+'  a1b1**: Déplace une pèrce remplacé a1 par la coordonnée de dépard et b1 par la destination.'+"\n"+
+						' **'+baseCommand+' a1b1**: Déplace une pèrce remplacé a1 par la coordonnée de dépard et b1 par la destination.'+"\n"+
 						' **'+baseCommand+' '+this.self.CMD_HELP+'**: Affiche l\'aide'+"\n"+
 						' **'+baseCommand+' '+this.self.CMD_START+'**: Démarre une nouvelle partie'+"\n"+
 						' **'+baseCommand+' '+this.self.CMD_STOP+'**: Arrête la partie en cours'+"\n"+
