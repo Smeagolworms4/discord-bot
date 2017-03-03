@@ -1,3 +1,6 @@
-##
+# Bot Discord For chess
 
-https://discordapp.com/oauth2/authorize?client_id=CLIENT_ID&scope=bot&permissions=0
+
+## Add bot on your channel
+  
+  https://discordapp.com/oauth2/authorize?client_id=CLIENT_ID&scope=bot&permissions=0
